@@ -1,0 +1,118 @@
+@font-face
+{
+	font-family: HelveticaRemote;
+	src: url(helvetica.ttf);
+}
+
+body
+{
+	font-family: Helvetica, HelveticaRemote, Arial, sans-serif;
+	text-align: center;
+	line-height: 1.5;
+}
+
+#prose
+{
+	max-width: 30em;
+	display: inline-block;
+	text-align: justify;
+}
+
+img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+@media screen and (orientation: landscape) and (min-height: 480px)
+{
+	#index h1
+	{
+		display: none;
+	}
+
+	.menuitem
+	{
+		position: absolute;
+	}
+
+	#about
+	{
+		left: 24.2735043%;
+		top: 39.2338177%;
+	}
+
+	#chat
+	{
+		left: 12.6495726%;
+		top: 47.8203435%;
+	}
+
+
+	#minecraft
+	{
+		left: 0%;
+		top: 56.4068692%;
+	}
+
+	#plugs
+	{
+		left: 84.957265%;
+		top: 66.7107001%;
+	}
+
+	#mouth
+	{
+		left: 50.2564103%;
+		top: 42.2721268%;
+		width: 12.6495726%;
+		height: 6.340819%;
+		display: block;
+		position: absolute;
+	}
+	
+	#bigchungus
+	{
+		display: inline-block;
+		position: relative;
+		background: url('smallchungus.png') no-repeat center;
+		width: 350px;
+		height: 454px;
+	}
+	
+	.menuitem
+	{
+		font-size: 11pt;
+	}
+}
+
+@media screen and (orientation: landscape) and (min-height: 800px)
+{
+	#bigchungus
+	{
+		background: url('mediumchungus.png') no-repeat center;
+		width: 585px;
+		height: 757px;
+	}
+
+	.menuitem
+	{
+		font-size: 18pt;
+	}
+}
+
+@media screen and (orientation: landscape) and (min-height: 1900px)
+{
+	#bigchungus
+	{
+		background: url('bigchungus.png') no-repeat center;
+		width: 1409px;
+		height: 1824px;
+	}
+
+	.menuitem
+	{
+		font-size: 43pt;
+	}
+}
+
