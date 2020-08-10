@@ -49,13 +49,19 @@ img
 	}
 
 
-	#minecraft
+	#forum
 	{
 		left: 0%;
 		top: 56.4068692%;
 	}
 
-	#plugs
+	#test
+	{
+		left: 71.1111111111%;
+		top: 43.5931307794%;
+	}
+
+	#nitro
 	{
 		left: 84.957265%;
 		top: 66.7107001%;
@@ -84,6 +90,11 @@ img
 	{
 		font-size: 11pt;
 	}
+	
+	.menuitem.small
+	{
+		font-size: 6pt;
+	}
 }
 
 @media screen and (orientation: landscape) and (min-height: 800px)
@@ -99,6 +110,11 @@ img
 	{
 		font-size: 18pt;
 	}
+	
+	.menuitem.small
+	{
+		font-size: 9pt;
+	}
 }
 
 @media screen and (orientation: landscape) and (min-height: 1900px)
@@ -113,6 +129,11 @@ img
 	.menuitem
 	{
 		font-size: 43pt;
+	}
+	
+	.menuitem.small
+	{
+		font-size: 22pt;
 	}
 }
 
