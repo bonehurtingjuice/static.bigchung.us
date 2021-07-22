@@ -91,3 +91,9 @@ body#index
 	font-size: 18pt;
 	text-transform: lowercase;
 }
+
+img
+{
+	max-width: 100%;
+	height: auto;
+}
