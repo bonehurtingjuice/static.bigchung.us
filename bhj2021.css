@@ -42,6 +42,11 @@ h2
 	{
 		float: right;
 	}
+	
+	.indexcol, .spacer
+	{
+		float: right;
+	}
 }
 
 .indexcol
