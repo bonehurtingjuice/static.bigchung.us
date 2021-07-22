@@ -1,0 +1,74 @@
+@font-face
+{
+	font-family: 'Modulus';
+	src: url(Modulus_Medium.ttf);
+}
+
+@font-face
+{
+	font-family: Modulus;
+	src: url(Modulus-Bold.otf);
+	font-weight: bold;
+}
+
+h1, h2, #menubar
+{
+	text-transform: lowercase;
+}
+
+h2
+{
+	margin: 0;
+}
+
+#menubar
+{
+	font-size: 16pt;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+@media screen and (min-width: 30em)
+{
+	
+	.incline
+	{
+		transform: rotate(-3deg);
+		display: inline-block;
+		margin-top: 2em;
+	}
+	
+	#menubar
+	{
+		float: right;
+	}
+}
+
+.indexcol
+{
+	max-width: 30em;
+	display: inline-block;
+	text-align: justify;
+	vertical-align: top;
+	font-size: 14pt;
+	padding: 1em;
+	border-radius: 1em;
+	position: relative;
+	background: linear-gradient(to top right, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.6));
+	backdrop-filter: blur(8px);
+}
+
+.spacer
+{
+	width: 5em;
+	height: 2em;
+	display: inline-block;
+}
+body
+{
+	background: url("chunguslite.jpg") no-repeat;
+	background-size: cover;
+	font-family: Modulus, sans-serif;
+	text-align: center;
+	line-height: 1.5;
+}
