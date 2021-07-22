@@ -102,3 +102,9 @@ img
 	max-width: 100%;
 	height: auto;
 }
+
+.columns
+{
+	display: inline-block;
+}
+
