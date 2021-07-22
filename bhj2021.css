@@ -1,6 +1,6 @@
 @font-face
 {
-	font-family: 'Modulus';
+	font-family: Modulus;
 	src: url(Modulus_Medium.ttf);
 }
 
@@ -64,11 +64,30 @@ h2
 	height: 2em;
 	display: inline-block;
 }
+
 body
 {
-	background: url("chunguslite.jpg") no-repeat;
-	background-size: cover;
 	font-family: Modulus, sans-serif;
 	text-align: center;
 	line-height: 1.5;
+}
+
+body#index
+{
+	background: url("chunguslite.jpg") no-repeat;
+	background-size: cover;
+}
+
+#prose
+{
+	max-width: 30em;
+	display: inline-block;
+	text-align: justify;
+	font-size: 14pt;
+}
+
+.backlink
+{
+	font-size: 18pt;
+	text-transform: lowercase;
 }
