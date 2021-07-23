@@ -1,15 +1,4 @@
-@font-face
-{
-	font-family: Modulus;
-	src: url(Modulus_Medium.ttf);
-}
-
-@font-face
-{
-	font-family: Modulus;
-	src: url(Modulus-Bold.otf);
-	font-weight: bold;
-}
+@import "modulus.css";
 
 h1, h2, #menubar
 {

@@ -1,0 +1,13 @@
+@font-face
+{
+	font-family: Modulus;
+	src: url("Modulus_Medium.eot") format("embedded-opentype"), url("Modulus_Medium.ttf") format("truetype"), url("Modulus_Medium.otf") format("opentype");
+}
+
+@font-face
+{
+	font-family: Modulus;
+	src: url("Modulus-Bold.eot") format("embedded-opentype"), url("Modulus-Bold.ttf") format("truetype"), url("Modulus-Bold.otf") format("opentype");
+	font-weight: bold;
+}
+
