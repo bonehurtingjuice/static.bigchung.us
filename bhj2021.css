@@ -70,6 +70,7 @@ body#index
 {
 	background: url("chunguslite.jpg") no-repeat;
 	background-size: cover;
+	-ms-behavior: url(/backgroundsize.min.htc);
 }
 
 #prose
